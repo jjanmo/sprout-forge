@@ -18,7 +18,7 @@ const posts: Post[] = [
     date: '2022-10-30',
     content:
       '오늘은 선정릉을 뛰다가 귀여운 고양이를 만났다. 고양이가 나를 반기는듯 도망쳤다.',
-    image: '/public/images/cat_1.jpg',
+    image: '',
     favorite: [],
   },
   {
@@ -28,15 +28,14 @@ const posts: Post[] = [
     date: '2022-11-01',
     content:
       '내일은 회사 출근길에 고양이를 만날 예정이다. 어떻게 아냐구? 그냥 저스트 필링!',
-    image: '/public/images/cat_2.jpg',
+    image: '',
     favorite: [],
   },
 ];
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse
+  res: NextApiResponse<Post[]>
 ) {
-  console.log(req, res);
   return res.status(200).json(posts);
 }
