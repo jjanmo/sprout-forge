@@ -3,7 +3,7 @@
   "background_color": "#f8e71c",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "/home",
   "name": "sns-pwa",
   "short_name": "sns-pwa",
   "icons": [
