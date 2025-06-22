@@ -17,6 +17,6 @@
 - Typescript with Zod
 - Zustand
 - Vanilla Extract
-- file based SQLite
+- Supabase
 
 ## Features
